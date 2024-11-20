@@ -4717,7 +4717,8 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+ }
 
 .carousel-item {
   position: relative;
@@ -7277,7 +7278,6 @@ body {
   background: url(../images/bg_4.jpg) no-repeat fixed;
   background-size: cover; }
   body.menu-show {
-    overflow: hidden;
     position: fixed;
     height: 100%;
     width: 100%; }
