@@ -7535,7 +7535,6 @@ h1, h2, h3, h4, h5,
     }
       
       .owl-carousel.home-slider .slider-item .overlay {
-        position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
@@ -8986,3 +8985,5 @@ textarea.form-control {
     .logo {
       width: 90px;
     }
+
+
