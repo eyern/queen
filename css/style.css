@@ -9196,8 +9196,8 @@ textarea.form-control {
 
 #menuSearch {
   padding-right: 30px;
-  width: 90px;
-  border: none;
+  width: 190px;
+  border: #FF0000;
   height: 39px;
   border-radius: 12px 20px;
 }
@@ -9221,17 +9221,16 @@ textarea.form-control {
 .menu h2 {
   font-weight: 700;
   text-align: center;
-  font-size: 40px;
-  text-shadow: 4px 2px #FF0000;
+  font-size: 30px;
   margin-top: 70px;
 }
 .menu button {
   background-color: #FF0000;
   border: 0;
-  border-radius: 12px 20px;
+  border-radius: 12px 5px;
 }
 .menu button:hover {
-  background-color: beige;
+  background-color: #FF0000;
   border-radius: 20px 12px;
   cursor: pointer;
 }
@@ -9240,7 +9239,7 @@ textarea.form-control {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 35px;
+  column-gap: 25px;
   text-align: center;
   row-gap: 16px;
 }
@@ -9257,11 +9256,6 @@ textarea.form-control {
   text-decoration: underline;
   text-decoration-color: #FF0000;
 }
-/* span {
-  color: gold;
-  text-decoration: underline;
-  border: 1px white dotted;
-} */
 
 .menu-category ul {
   list-style: none;
